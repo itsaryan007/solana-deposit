@@ -1,0 +1,12 @@
+/home/aryan/rust-solana/solana-deposit-withdraw/target/bpfel-unknown-unknown/release/deps/spl_token-bdd2b7f866150723.so: /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/lib.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/error.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/instruction.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/native_mint.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/processor.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/state.rs
+
+/home/aryan/rust-solana/solana-deposit-withdraw/target/bpfel-unknown-unknown/release/deps/libspl_token-bdd2b7f866150723.rlib: /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/lib.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/error.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/instruction.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/native_mint.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/processor.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/state.rs
+
+/home/aryan/rust-solana/solana-deposit-withdraw/target/bpfel-unknown-unknown/release/deps/spl_token-bdd2b7f866150723.d: /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/lib.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/error.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/instruction.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/native_mint.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/processor.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/state.rs
+
+/home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/lib.rs:
+/home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/error.rs:
+/home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/instruction.rs:
+/home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/native_mint.rs:
+/home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/processor.rs:
+/home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/spl-token-3.2.0/src/state.rs:

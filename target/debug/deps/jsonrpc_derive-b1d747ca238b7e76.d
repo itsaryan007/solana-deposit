@@ -1,0 +1,11 @@
+/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/deps/libjsonrpc_derive-b1d747ca238b7e76.so: /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/lib.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/options.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/params_style.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/rpc_attr.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/rpc_trait.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/to_client.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/to_delegate.rs
+
+/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/deps/jsonrpc_derive-b1d747ca238b7e76.d: /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/lib.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/options.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/params_style.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/rpc_attr.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/rpc_trait.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/to_client.rs /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/to_delegate.rs
+
+/home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/lib.rs:
+/home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/options.rs:
+/home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/params_style.rs:
+/home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/rpc_attr.rs:
+/home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/rpc_trait.rs:
+/home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/to_client.rs:
+/home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/jsonrpc-derive-18.0.0/src/to_delegate.rs:

@@ -1,0 +1,38 @@
+To deploy this program:
+  $ solana program deploy /home/aryan/rust-solana/solana-deposit-withdraw/target/deploy/solana_deposit_withdraw.so
+
+The program address will default to this keypair (override with --program-id):
+  /home/aryan/rust-solana/solana-deposit-withdraw/target/deploy/solana_deposit_withdraw-keypair.json
+
+
+  Wrote new keypair to keypair.json
+=================================================================================
+pubkey: EszLqKxCxERKUz986NEX6SVNKdwM8KC7TVgax3K4r9kK
+
+secretkey: 162,198,104,103,207,4,235,232,23,248,93,95,16,210,192,64,64,173,226,15,71,204,75,177,142,211,87,151,56,187,21,215,206,55,206,167,210,17,110,45,138,212,214,46,106,204,205,123,251,83,72,89,237,245,78,33,0,95,187,91,225,2,166,8
+=================================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+grape place collect subway push thunder turkey chef pelican cruise soldier excuse
+
+
+Program Id: 2YA1rN2cAZscJdY4rziHotNiSYLb1HBvqycZ4ipeynvM
+
+
+
+
+//Token
+Creating token 
+2nmcD8LKxsanPDDipNM5pTCV6TKWPGkobYVVy74Eiv5p
+
+Signature: 3erdDeaAYMHvTg7og74EvzjY7ate4yDKKptcrHBM6GzmeeZFLYATK7xc2nCKJvESBJpb48ww1kGKeq7RJKucJh5o
+
+
+Creating account BNBXvJHnbtb43HJEGUymJRiY5SvL3pG8ZLc3Ba5n5Hrj
+
+Signature: 3F9WCaRtCP8FJqTZDRy4pZfzpYaq4NGFT56av5pUQiXoWh6keg7Nh3WiXbqVPJK3wrCx5yazSumEuf6xt1Cu7Eac
+
+
+second token:
+Creating token GqocnLArPXpSiadWqbGmQnVMdAFopAtVAuuQbnirG3gK
+
+Creating account CK5paq8hvQyYtAFJ6wnJZhgtJt2dsCLaTvMF3cPZMbpE

@@ -1,0 +1,51 @@
+cargo:rerun-if-env-changed=LIBZ_SYS_STATIC
+cargo:rerun-if-changed=build.rs
+TARGET = Some("x86_64-unknown-linux-gnu")
+OPT_LEVEL = Some("0")
+HOST = Some("x86_64-unknown-linux-gnu")
+CC_x86_64-unknown-linux-gnu = None
+CC_x86_64_unknown_linux_gnu = None
+HOST_CC = None
+CC = None
+CFLAGS_x86_64-unknown-linux-gnu = None
+CFLAGS_x86_64_unknown_linux_gnu = None
+HOST_CFLAGS = None
+CFLAGS = None
+CRATE_CC_NO_DEFAULTS = None
+DEBUG = Some("true")
+CARGO_CFG_TARGET_FEATURE = Some("fxsr,sse,sse2")
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "src/zlib" "-fvisibility=hidden" "-DZ_SOLO" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/adler32.o" "-c" "src/zlib/adler32.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "src/zlib" "-fvisibility=hidden" "-DZ_SOLO" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/compress.o" "-c" "src/zlib/compress.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "src/zlib" "-fvisibility=hidden" "-DZ_SOLO" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/crc32.o" "-c" "src/zlib/crc32.c"
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "src/zlib" "-fvisibility=hidden" "-DZ_SOLO" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/deflate.o" "-c" "src/zlib/deflate.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "src/zlib" "-fvisibility=hidden" "-DZ_SOLO" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/infback.o" "-c" "src/zlib/infback.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "src/zlib" "-fvisibility=hidden" "-DZ_SOLO" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/inffast.o" "-c" "src/zlib/inffast.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "src/zlib" "-fvisibility=hidden" "-DZ_SOLO" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/inflate.o" "-c" "src/zlib/inflate.c"
+exit status: 0
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "src/zlib" "-fvisibility=hidden" "-DZ_SOLO" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/inftrees.o" "-c" "src/zlib/inftrees.c"
+exit status: 0
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "src/zlib" "-fvisibility=hidden" "-DZ_SOLO" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/trees.o" "-c" "src/zlib/trees.c"
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "src/zlib" "-fvisibility=hidden" "-DZ_SOLO" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/uncompr.o" "-c" "src/zlib/uncompr.c"
+exit status: 0
+exit status: 0
+running: "cc" "-O0" "-ffunction-sections" "-fdata-sections" "-fPIC" "-g" "-fno-omit-frame-pointer" "-m64" "-I" "src/zlib" "-fvisibility=hidden" "-DZ_SOLO" "-DSTDC" "-D_LARGEFILE64_SOURCE" "-D_POSIX_SOURCE" "-o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/zutil.o" "-c" "src/zlib/zutil.c"
+exit status: 0
+exit status: 0
+AR_x86_64-unknown-linux-gnu = None
+AR_x86_64_unknown_linux_gnu = None
+HOST_AR = None
+AR = None
+running: "ar" "cq" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/libz.a" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/adler32.o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/compress.o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/crc32.o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/deflate.o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/infback.o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/inffast.o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/inflate.o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/inftrees.o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/trees.o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/uncompr.o" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/src/zlib/zutil.o"
+exit status: 0
+running: "ar" "s" "/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib/libz.a"
+exit status: 0
+cargo:rustc-link-lib=static=z
+cargo:rustc-link-search=native=/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib
+cargo:root=/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out
+cargo:rustc-link-search=native=/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/lib
+cargo:include=/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/build/libz-sys-a142f7b6cb558593/out/include

@@ -1,0 +1,7 @@
+/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/deps/libsecp256k1_gen_genmult-e44927e501752abc.rmeta: /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/libsecp256k1-gen-genmult-0.2.1/src/lib.rs
+
+/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/deps/liblibsecp256k1_gen_genmult-e44927e501752abc.rlib: /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/libsecp256k1-gen-genmult-0.2.1/src/lib.rs
+
+/home/aryan/rust-solana/solana-deposit-withdraw/target/debug/deps/libsecp256k1_gen_genmult-e44927e501752abc.d: /home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/libsecp256k1-gen-genmult-0.2.1/src/lib.rs
+
+/home/aryan/.cargo/registry/src/github.com-1ecc6299db9ec823/libsecp256k1-gen-genmult-0.2.1/src/lib.rs:
