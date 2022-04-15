@@ -23,6 +23,10 @@ impl Processor {
                 msg!("Instruction: InitDeposit");
                 Self::process_init_deposit(accounts, amount, program_id)
             }
+            DepositInstruction::ReqWithdraw { amount } => {
+                msg!("Instruction: Withdraw");
+                Self::process_withdraw(accounts, amount, program_id)
+            }
         }
     }
 
@@ -33,6 +37,8 @@ impl Processor {
     ) -> ProgramResult {
         let account_info_iter = &mut accounts.iter();
         let initializer = next_account_info(account_info_iter)?;
+
+        
 
         if !initializer.is_signer {
             return Err(ProgramError::MissingRequiredSignature);
@@ -75,7 +81,6 @@ impl Processor {
             initializer.key,        //the current account authority (Alice -> initializer.key),
             &[&initializer.key],    //the public keys signing the CPI.
         )?;
-        
 
         msg!("Calling the token program to transfer token account ownership...");
         invoke(
@@ -86,10 +91,65 @@ impl Processor {
                 token_program.clone(),
             ],
         )?;
-        // end of confusion
 
         Ok(())
 
         //end of process_init_deposit
     } 
 }
+
+#[inline(always)]
+fn process_withdraw(
+    accounts : &[AccountInfo],
+    amount_expected_by_taker: u64,
+    program_id: &Pubkey,
+)-> ProgramResult{
+    let account_info_iter = &mut accounts.iter();
+    let taker = next_account_info(account_info_iter)?;
+
+    if !taker.is_signer {
+        return Err(ProgramError::MissingRequiredSignature);
+    }
+
+    let takers_token_to_receive_account = next_account_info(account_info_iter)?;
+
+    let pdas_temp_token_account = next_account_info(account_info_iter)?;
+    let pdas_temp_token_account_info =
+        TokenAccount::unpack(&pdas_temp_token_account.try_borrow_data()?)?;
+    let (pda, nonce) = Pubkey::find_program_address(&[b"deposit"], program_id);
+
+    if amount_expected_by_taker > pdas_temp_token_account_info.amount {
+        return Err(ProgramError::InsufficientFunds);
+    }
+
+    let transfer_to_taker_ix = spl_token::instruction::transfer(
+        token_program.key,
+        pdas_temp_token_account.key,
+        takers_token_to_receive_account.key,
+        &pda,
+        &[&pda],
+        pdas_temp_token_account_info.amount,
+    )?;
+    msg!("Calling the token program to transfer tokens to the taker(withdrawer)...");
+    invoke_signed(
+        &transfer_to_taker_ix,
+        &[
+            pdas_temp_token_account.clone(),
+            takers_token_to_receive_account.clone(),
+            pda_account.clone(),
+            token_program.clone(),
+        ],
+        &[&[&b"deposit"[..], &[nonce]]],
+    )?;
+
+}
+
+struct TokenTransferParams<'a: 'b, 'b> {
+    source: AccountInfo<'a>,
+    destination: AccountInfo<'a>,
+    amount: u64,
+    authority: AccountInfo<'a>,
+    authority_signer_seeds: &'b [&'b [u8]],
+    token_program: AccountInfo<'a>,
+}
+

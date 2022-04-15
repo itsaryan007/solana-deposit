@@ -5,7 +5,7 @@ The program address will default to this keypair (override with --program-id):
   /home/aryan/rust-solana/solana-deposit-withdraw/target/deploy/solana_deposit_withdraw-keypair.json
 
 
-  Wrote new keypair file to keypair.json
+  Wrote new keypair to keypair.json
 =================================================================================
 pubkey: EszLqKxCxERKUz986NEX6SVNKdwM8KC7TVgax3K4r9kK
 
@@ -16,6 +16,8 @@ grape place collect subway push thunder turkey chef pelican cruise soldier excus
 
 
 Program Id: 2YA1rN2cAZscJdY4rziHotNiSYLb1HBvqycZ4ipeynvM
+
+program Id new: 7M9ve5NuPauiZs9YK978P1jumoqYVS2Zg4d6ZVDstNL
 
 
 
@@ -36,3 +38,13 @@ second token:
 Creating token GqocnLArPXpSiadWqbGmQnVMdAFopAtVAuuQbnirG3gK
 
 Creating account CK5paq8hvQyYtAFJ6wnJZhgtJt2dsCLaTvMF3cPZMbpE
+
+
+third token:
+toekn : 4akWgFHxpexKuV3T4ro5PSeDUdG3ciSVSGihAwnsamz1
+account: 6L3V7k5tdp99S9JWnjK7ZDkokJZXdp9xxbvvrtNi4s7i
+
+
+fourth token:
+token: EApPgmNY3nXQPLVZYyNSchDG2dKn9hH6vdRMJd9Mmiyv
+account:3Boj2T8eBQha3XPaGytjXShNhb656k7DepmRuiXQAfmG
